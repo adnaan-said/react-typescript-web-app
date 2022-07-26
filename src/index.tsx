@@ -9,5 +9,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
+  <QueryClientProvider client={client}>
     <App />
+  </QueryClientProvider>
 );
